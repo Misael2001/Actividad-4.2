@@ -80,7 +80,7 @@ bool isBipartite(const UnweightedGraph<Vertex>* graph) {
 		  }
 	  }
   }
-  return false;
+  return true;
 }
 
 template <class Vertex>
@@ -118,7 +118,7 @@ bool isTree(const UnweightedGraph<Vertex>* graph) {
 	  }
   }
 
-  return false;
+  return true;
 }
 
 #endif /* ACTIVITY_H */
